@@ -5,6 +5,9 @@ import {Wrapper, Container, Photo, Content} from './styles';
 import Header from './Header';
 import Previa from './Previa';
 import ContinuarAssistindo from './ContinuarAssistindo';
+import SerieEua from './SerieEua';
+import EmAlta from './EmAlta';
+import MinhaLista from './MinhaLista';
 
 export default function Home() {
   return (
@@ -22,6 +25,9 @@ export default function Home() {
         <Content>
           <Previa />
           <ContinuarAssistindo />
+          <SerieEua />
+          <EmAlta />
+          <MinhaLista />
         </Content>
       </Container>
     </Wrapper>

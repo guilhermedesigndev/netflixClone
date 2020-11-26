@@ -45,6 +45,9 @@ export default function Navigation() {
           borderBottomWidth: 10,
           borderBottomColor: '#121212',
         },
+        labelStyle: {
+          fontFamily: theme.fonts.light,
+        },
         activeTintColor: theme.colors.white,
         inactiveTintColor: '#787878',
       }}>
