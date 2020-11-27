@@ -8,6 +8,7 @@ import ContinuarAssistindo from './ContinuarAssistindo';
 import SerieEua from './SerieEua';
 import EmAlta from './EmAlta';
 import MinhaLista from './MinhaLista';
+import Top10 from './Top10';
 import AssistirNovamente from './AssistirNovamente';
 import ListCardsOriginais from './ListCardsOriginais';
 
@@ -30,6 +31,7 @@ export default function Home() {
           <SerieEua />
           <EmAlta />
           <MinhaLista />
+          <Top10 />
           <AssistirNovamente />
           <ListCardsOriginais />
         </Content>
